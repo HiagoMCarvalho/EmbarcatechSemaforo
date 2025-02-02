@@ -6,7 +6,7 @@
 #define LEDB 12  // Definição do LED azul/amarelo
 #define LEDR 13  // Definição do LED vermelho
 
-int led_index = 0;  // Variável para alternar entre os LEDs
+int led_index = 1;  // Variável para alternar entre os LEDs
 
 // Callback do temporizador
 bool repeating_timer_callback(struct repeating_timer *t) 
