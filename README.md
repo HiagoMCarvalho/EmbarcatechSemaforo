@@ -7,6 +7,7 @@ Este projeto implementa um sistema de controle de semáforos utilizando um micro
 - Controle automatizado do tempo de sinalização.
 - Indicação visual através de LEDs.
 - Ajuste dinâmico de tempos de espera.
+- Implementação de Interrupções para otimização do código
 
 ## Estrutura do Projeto
 ```
