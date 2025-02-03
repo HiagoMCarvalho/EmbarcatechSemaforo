@@ -1,33 +1,29 @@
 # Embarcatech Semaforo
 
 ## Descrição
-Este projeto implementa um controlador para uma matriz de LEDs utilizando um Raspberry Pi Pico e o sistema PIO (Programmable I/O). Ele permite a exibição dos números de 0 a 9 em uma matriz de LEDs Neopixel (WS2812), garantindo alto desempenho e baixo uso da CPU.
+Este projeto implementa um sistema de controle de semáforos utilizando um microcontrolador
 
 ## Funcionalidades
-- Controle eficiente de LEDs RGB utilizando o PIO do Raspberry Pi Pico.
-- Suporte para animações e exibição de números na matriz de LEDs.
-- Compatibilidade com o simulador Wokwi para testes sem hardware físico.
-- Configuração simples através do CMake.
+- Controle automatizado do tempo de sinalização.
+- Indicação visual através de LEDs.
+- Ajuste dinâmico de tempos de espera.
 
 ## Estrutura do Projeto
 ```
-pio_matrix-master/
+semaforo-inteligente/
 ├── .gitignore
-├── .vscode/                # Configurações do VS Code
-├── CMakeLists.txt          # Configuração do build com Pico SDK
-├── diagram.json            # Esquema de conexões para simulação no Wokwi
-├── pico_sdk_import.cmake   # Importação do SDK do Raspberry Pi Pico
-├── pio_matrix.c            # Lógica principal do controle da matriz
-├── pio_matrix.pio          # Código PIO para comunicação com os LEDs
+├── CMakeLists.txt          # Configuração do build
+├── diagram.json            # Esquema de conexões
+├── Semaforo.c              # Lógica principal do sistema
 ├── wokwi.toml              # Configuração da simulação no Wokwi
 ```
 
 ## Requisitos
-- **Hardware**: Raspberry Pi Pico, LEDs Neopixel (WS2812)
+- **Hardware**: Microcontrolador compatível (Raspberry Pi Pico), LEDs
 - **Software**:
-  - [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk)
-  - CMake
+  - Ambiente de desenvolvimento C/C++
   - Simulador Wokwi (opcional)
+  - CMake
 
 ## Como Compilar e Executar
 1. Clone o repositório e acesse a pasta do projeto:
