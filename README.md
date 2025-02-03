@@ -11,7 +11,7 @@ Este projeto implementa um sistema de controle de semáforos utilizando um micro
 
 ## Estrutura do Projeto
 ```
-semaforo-inteligente/
+Semaforo/
 ├── .gitignore
 ├── CMakeLists.txt          # Configuração do build
 ├── diagram.json            # Esquema de conexões
