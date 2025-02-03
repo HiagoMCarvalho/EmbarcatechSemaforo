@@ -1,4 +1,4 @@
-# Embarcatech Interrupção
+# Embarcatech Semaforo
 
 ## Descrição
 Este projeto implementa um controlador para uma matriz de LEDs utilizando um Raspberry Pi Pico e o sistema PIO (Programmable I/O). Ele permite a exibição dos números de 0 a 9 em uma matriz de LEDs Neopixel (WS2812), garantindo alto desempenho e baixo uso da CPU.
